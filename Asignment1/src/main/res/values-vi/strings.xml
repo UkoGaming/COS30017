@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Ứng Dụng Thể Dục Dụng Cụ</string>
-    <string name="add">Trình Diễn</string>
-    <string name="sub">Giảm Bớt</string>
-    <string name="reset">Khởi Động Lại</string>
-    <string name="element_text">Động tác: %1$d/10</string>
-    <string name="completed">Bài Biểu Diễn Đã Hoàn Thành</string>
-</resources>
