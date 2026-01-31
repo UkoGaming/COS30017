@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gymnastic App</string>
+    <string name="add">Perform</string>
+    <string name="sub">Deduction</string>
+    <string name="reset">Reset</string>
+    <string name="element_text">Element: %1$d/10</string>
+    <string name="completed">The Routine is Completed</string>
+</resources>
