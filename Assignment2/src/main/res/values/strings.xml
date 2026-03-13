@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="credit">Credit: %d</string>
+    <string name="rent">Rent</string>
+    <string name="detail">Details</string>
+    <string name="favourite">Favourite</string>
+    <string name="next">Next</string>
+    <string name="isbooked">Is Booked:</string>
+    <string name="car_detail_left">
+        Name
+        \nModel:
+        \nYear:
+        \nNumber of Kilometres:
+        \nDaily Rental:
+        \nRating:
+    </string>
+    <string name="car_detail_right">
+        BMW
+        \n430i
+        \n2023
+        \n12000
+        \n80
+        \n
+    </string>
+    <string name="dark_mode">Dark Mode</string>
+    <string-array name="sort_menu">
+        <item>Rating (high to low)</item>
+        <item>Year (newest to oldest)</item>
+        <item>Cost (low to high)</item>
+    </string-array>
+    <string name="dayOfRental">%d day</string>
+    <string name="totalCost">Total %d</string>
+    <string name="confirm_renting">Confirm Renting</string>
+    <string name="back">Back</string>
+</resources>
