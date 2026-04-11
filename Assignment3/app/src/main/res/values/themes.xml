@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Assignment3" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue</item>
+    </style>
+
+    <style name="Theme.Assignment3" parent="Base.Theme.Assignment3" />
+
+    <style name="Theme.Assignment3.Blue" parent="Theme.Assignment3">
+        <item name="colorPrimary">@color/primary_blue</item>
+    </style>
+    <style name="Theme.Assignment3.Green" parent="Theme.Assignment3">
+        <item name="colorPrimary">@color/primary_green</item>
+    </style>
+    <style name="Theme.Assignment3.Purple" parent="Theme.Assignment3">
+        <item name="colorPrimary">@color/primary_purple</item>
+    </style>
+    <style name="Theme.Assignment3.Orange" parent="Theme.Assignment3">
+        <item name="colorPrimary">@color/primary_orange</item>
+    </style>
+    <style name="Theme.Assignment3.Pink" parent="Theme.Assignment3">
+        <item name="colorPrimary">@color/primary_pink</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
