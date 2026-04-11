@@ -1,0 +1,188 @@
+# Initial Sketches (Conceptual Wireframes)
+
+## 1. Mobile Home Screen
+
+* Large central temperature display (e.g., 22°C)
+* Circular dial or slider for adjusting temperature
+* Current status:
+
+  * “Heating…” / “Cooling…” / “Idle”
+* Quick buttons:
+
+  * Heat
+  * Cool
+  * Schedule
+* Bottom navigation:
+
+  * Home | Schedule | Settings
+
+---
+
+## 2. Schedule Screen
+
+* Weekly calendar view (tabs: Weekdays / Weekend)
+* Timeline sliders:
+
+  * Morning / Day / Evening / Night
+* Toggle:
+
+  * “Auto-detect weekends”
+* Add/Edit schedule button
+
+---
+
+## 3. Settings Screen
+
+* Temperature units (°C / °F)
+* Offline mode indicator:
+
+  * “Connected locally” / “No internet – local control active”
+* Device pairing / network settings
+* Energy-saving mode toggle
+
+---
+
+## 4. Desktop View (Responsive Layout)
+
+* Split layout:
+
+  * Left: temperature dial
+  * Right: schedule overview
+* Top bar:
+
+  * Device status
+  * User profile
+* More detailed analytics (optional):
+
+  * Energy usage graph
+
+---
+
+## 5. Offline Mode UI State
+
+* Banner at top:
+
+  * “Offline mode: Connected via local network”
+* Disable cloud-only features
+* Keep temperature + scheduling active
+
+---
+
+# User Stories
+
+### Core Control
+
+* As a homeowner, I want to adjust the temperature remotely, so that my home is comfortable when I arrive.
+* As a user, I want to quickly increase or decrease temperature, so that I can react instantly to weather changes.
+
+### Scheduling
+
+* As a busy professional, I want to set weekday and weekend schedules, so that my home adapts to my routine automatically.
+* As a user, I want the system to detect weekends automatically, so that I don’t need to manually switch schedules.
+
+### Offline Capability
+
+* As a user, I want to control my thermostat without internet, so that I am not dependent on cloud services.
+* As a user, I want to see connection status, so that I understand system limitations.
+
+### Multi-Device Use
+
+* As a user, I want to access the app from any device/browser, so that I am not restricted to one platform.
+
+### Energy Efficiency
+
+* As an eco-conscious user, I want to automatically lower temperature at night, so that I save energy and reduce costs.
+
+---
+
+#  Use Cases
+
+---
+
+## Use Case 1: Adjust Temperature Remotely
+
+Actor: User (Alex)
+Precondition: User is connected to the thermostat (internet or local network)
+
+Main Flow:
+
+1. User opens the web app on their phone
+2. System displays current temperature
+3. User adjusts temperature to 22°C
+4. System sends command to thermostat
+5. Thermostat begins heating
+
+System Response:
+
+* Updates UI to show “Heating to 22°C”
+* Confirms change visually (animation or highlight)
+
+---
+
+## Use Case 2: Set Weekly Schedule
+
+Actor: User (Priya)
+Precondition: Schedule feature is available
+
+Main Flow:
+
+1. User navigates to Schedule screen
+2. User selects “Weekdays”
+3. Sets temperature drop at 10 PM
+4. Switches to “Weekend”
+5. Sets temperature drop at 12 AM
+6. Saves schedule
+
+System Response:
+
+* Stores schedule locally and/or in cloud
+* Displays confirmation message
+* Applies schedule automatically based on day detection
+
+---
+
+## Use Case 3: Offline Control
+
+Actor: User
+Precondition: Internet is down, local network available
+
+Main Flow:
+
+1. User opens web app
+2. System detects no internet
+3. Connects via local network
+4. User adjusts temperature
+
+System Response:
+
+* Displays “Offline Mode Active”
+* Executes command locally
+* Maintains full control functionality
+
+---
+
+## Use Case 4: Automatic Weekend Detection
+
+Actor: System
+
+Main Flow:
+
+1. System checks current day
+2. Identifies weekday vs weekend
+3. Loads appropriate schedule
+
+System Response:
+
+* Applies correct temperature settings
+* Updates UI to reflect active schedule
+
+---
+
+#  Optional Enhancements (Nice-to-have)
+
+* Smart suggestions (e.g., “Lower temp to save energy tonight?”)
+* Geofencing (auto-adjust when user is near home)
+* Voice control integration
+* Energy usage insights dashboard
+
+---
