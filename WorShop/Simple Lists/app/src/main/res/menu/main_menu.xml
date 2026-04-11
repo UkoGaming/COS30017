@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/length_10"
+        android:title="List Length 10"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/length_50"
+        android:title="List Length 50"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/show_books"
+        android:title="Show Books"
+        app:showAsAction="ifRoom" />
+</menu>
