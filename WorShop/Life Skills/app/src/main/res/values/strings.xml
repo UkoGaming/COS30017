@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculations</string>
+    <string name="plus_label">+</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="result_hint">Result</string>
+    <string name="number_1_hint">Num 1</string>
+    <string name="number_2_hint">Num 2</string>
+    <string name="add_option">Add</string>
+    <string name="subtract_option">Subtract</string>
+    <string name="multiply_option">Multiply</string>
+</resources>
