@@ -20,7 +20,7 @@ New additions:
 
 * Connection status chip:
 
-  * “Online” / “Offline (Local नियंत्रण)” *(important for constraint)*
+  * “Online” / “Offline ” 
 * Subtle animation for heating/cooling feedback
 
 ---
